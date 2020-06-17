@@ -72,7 +72,7 @@ console.log("Eklendi!")
 
 var timerId =
   countdown(
-    new Date("2020-06-20"),
+    new Date("2020-06-27"),
     function(ts) {
       document.getElementById('timera').innerHTML = ts.toHTML("strong");
     });
